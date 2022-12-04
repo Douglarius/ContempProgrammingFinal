@@ -98,3 +98,5 @@ C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgram
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\NSwag.CodeGeneration.CSharp.dll
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Parlot.dll
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\TimeZoneConverter.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\web.config

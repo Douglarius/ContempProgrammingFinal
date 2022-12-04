@@ -19,6 +19,7 @@
     <PackageReference Include="NSwag.AspNetCore" Version="13.18.0" />
     <PackageReference Include="NSwag.CodeGeneration.CSharp" Version="13.18.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
   </ItemGroup>
 
 

@@ -1,0 +1,14 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace coreapps.Models
+{
+    public class FavoriteFood
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Cuisine { get; set; }
+        public bool Vegetarian { get; set; }
+        public bool EasyToCook { get; set; }
+    }
+}

@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "coreapps",
+  "RootNamespace": "ContempProgrammingFinal",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

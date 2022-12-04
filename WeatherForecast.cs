@@ -1,4 +1,4 @@
-namespace coreapps;
+namespace ContempProgrammingFinal;
 
 public class WeatherForecast
 {

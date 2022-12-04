@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aIsJ4fGf4H+ySvG8xH1FmukGdmiP6ZdGFfa3iUN+qVA=",
+  "Source": "coreapps",
+  "BasePath": "_content/coreapps",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

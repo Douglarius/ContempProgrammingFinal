@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\coreapps.csproj": {}
+    "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\ContempProgrammingFinal\\coreapps.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\coreapps.csproj": {
+    "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\ContempProgrammingFinal\\coreapps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\coreapps.csproj",
+        "projectUniqueName": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\ContempProgrammingFinal\\coreapps.csproj",
         "projectName": "coreapps",
-        "projectPath": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\coreapps.csproj",
+        "projectPath": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\ContempProgrammingFinal\\coreapps.csproj",
         "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\obj\\",
+        "outputPath": "C:\\Users\\chand\\Documents\\School\\Contemporary Programming\\coreapps\\ContempProgrammingFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.18.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\Controllers",
+    "\\Models",
+    "\\Properties"
   ],
   "SelectedNode": "\\coreapps.csproj",
   "PreviewInSolutionExplorer": false

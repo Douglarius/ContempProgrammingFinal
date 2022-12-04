@@ -23,7 +23,7 @@ namespace ContempProgrammingFinal
             _logger = logger;
             _context = context;
         }
-        [HttpGet]
+        [HttpGet("FindByID")]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
@@ -37,7 +37,7 @@ namespace ContempProgrammingFinal
 
             return await _context.FavoriteFoods.ToListAsync();
         }
-        [HttpGet("{id}")]
+        [HttpGet("ShowAll")]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
@@ -52,7 +52,7 @@ namespace ContempProgrammingFinal
             return food;
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
@@ -84,7 +84,7 @@ namespace ContempProgrammingFinal
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]

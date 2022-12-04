@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using ContempProgrammingFinal;
 
+namespace ContempProgrammingFinal;
 internal class Program
 {
     private static void Main(string[] args)

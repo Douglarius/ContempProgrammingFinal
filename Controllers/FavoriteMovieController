@@ -1,4 +1,4 @@
-using ContempProgrammingFinal.Models;
+using ContempProgrammingFinal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace ContempProgrammingFinal.Controllers
+namespace ContempProgrammingFinal
 {
     [ApiController]
     [Route("[controller]")]

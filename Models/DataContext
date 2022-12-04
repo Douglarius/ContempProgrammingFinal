@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using ContempProgrammingFinal.Models;
 using System.Data;
 
 namespace ContempProgrammingFinal

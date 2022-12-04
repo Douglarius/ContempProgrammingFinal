@@ -83,3 +83,11 @@ C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgram
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\obj\Debug\net6.0\coreapps.pdb
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\obj\Debug\net6.0\coreapps.genruntimeconfig.cache
 C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\obj\Debug\net6.0\ref\coreapps.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Humanizer.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\chand\Documents\School\Contemporary Programming\coreapps\ContempProgrammingFinal\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

@@ -10,7 +10,6 @@ namespace ContempProgrammingFinal
         {
 
         }
-
         public DbSet<Student> Students { get; set; }
         public DbSet<FavoriteFood> FavoriteFoods { get; set; }
         public DbSet<FavoriteMovie> FavoriteMovies { get; set; }

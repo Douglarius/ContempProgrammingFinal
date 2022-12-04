@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
           "NSwag.AspNetCore": "13.18.0",
+          "NSwag.CodeGeneration.CSharp": "13.18.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -49,6 +50,19 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "Fluid.Core/2.2.15": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Parlot": "0.0.23",
+          "TimeZoneConverter": "3.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/Fluid.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -528,6 +542,33 @@
           }
         }
       },
+      "NJsonSchema.CodeGeneration/10.8.0": {
+        "dependencies": {
+          "Fluid.Core": "2.2.15",
+          "NJsonSchema": "10.8.0",
+          "Newtonsoft.Json": "10.0.1",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.CodeGeneration.dll": {
+            "assemblyVersion": "10.8.0.0",
+            "fileVersion": "10.8.0.0"
+          }
+        }
+      },
+      "NJsonSchema.CodeGeneration.CSharp/10.8.0": {
+        "dependencies": {
+          "NJsonSchema": "10.8.0",
+          "NJsonSchema.CodeGeneration": "10.8.0",
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.CodeGeneration.CSharp.dll": {
+            "assemblyVersion": "10.8.0.0",
+            "fileVersion": "10.8.0.0"
+          }
+        }
+      },
       "NJsonSchema.Yaml/10.8.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -561,6 +602,32 @@
         },
         "runtime": {
           "lib/net6.0/NSwag.AspNetCore.dll": {
+            "assemblyVersion": "13.18.0.0",
+            "fileVersion": "13.18.0.0"
+          }
+        }
+      },
+      "NSwag.CodeGeneration/13.18.0": {
+        "dependencies": {
+          "NJsonSchema": "10.8.0",
+          "NJsonSchema.CodeGeneration": "10.8.0",
+          "NSwag.Core": "13.18.0",
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.CodeGeneration.dll": {
+            "assemblyVersion": "13.18.0.0",
+            "fileVersion": "13.18.0.0"
+          }
+        }
+      },
+      "NSwag.CodeGeneration.CSharp/13.18.0": {
+        "dependencies": {
+          "NJsonSchema.CodeGeneration.CSharp": "10.8.0",
+          "NSwag.CodeGeneration": "13.18.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.CodeGeneration.CSharp.dll": {
             "assemblyVersion": "13.18.0.0",
             "fileVersion": "13.18.0.0"
           }
@@ -614,6 +681,14 @@
           "lib/net6.0/NSwag.Generation.AspNetCore.dll": {
             "assemblyVersion": "13.18.0.0",
             "fileVersion": "13.18.0.0"
+          }
+        }
+      },
+      "Parlot/0.0.23": {
+        "runtime": {
+          "lib/netstandard2.1/Parlot.dll": {
+            "assemblyVersion": "0.0.23.0",
+            "fileVersion": "0.0.23.0"
           }
         }
       },
@@ -1216,6 +1291,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
       "YamlDotNet/11.2.1": {
         "runtime": {
           "lib/netstandard2.1/YamlDotNet.dll": {
@@ -1245,6 +1328,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "Fluid.Core/2.2.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qQdMyknluaQ4+e/TuedqdXK1NBVBAQJs8mru6aaeS1Q57IxMNCX4CaZcfT2MpKB6FJgz08n6XrM43K7iMCCwFg==",
+      "path": "fluid.core/2.2.15",
+      "hashPath": "fluid.core.2.2.15.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1547,6 +1637,20 @@
       "path": "njsonschema/10.8.0",
       "hashPath": "njsonschema.10.8.0.nupkg.sha512"
     },
+    "NJsonSchema.CodeGeneration/10.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tGp1jKJ8VE8eFyEX+84BasuairNsszD+AN6SInMvQsgPi7m2JiDz2zXlEEmC/yoZB85B52+BKLeuw/Sc09SJ3Q==",
+      "path": "njsonschema.codegeneration/10.8.0",
+      "hashPath": "njsonschema.codegeneration.10.8.0.nupkg.sha512"
+    },
+    "NJsonSchema.CodeGeneration.CSharp/10.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FtLmhGxyTTYWIAREIzu7hksiHKE1S36AdKDzFjFvU5XgD2AHwtlkEflj6Mq84KQlI5h+X4s/fTwYlNblZNQ66w==",
+      "path": "njsonschema.codegeneration.csharp/10.8.0",
+      "hashPath": "njsonschema.codegeneration.csharp.10.8.0.nupkg.sha512"
+    },
     "NJsonSchema.Yaml/10.8.0": {
       "type": "package",
       "serviceable": true,
@@ -1567,6 +1671,20 @@
       "sha512": "sha512-QKT54Yqzeyiwqa0hGecSDx6pD1xB0zc5V7z9xc51XYv8rSUFwlidW0uQ4IgUvphOJdRtgcSc7Nl7KpoQXRNlKg==",
       "path": "nswag.aspnetcore/13.18.0",
       "hashPath": "nswag.aspnetcore.13.18.0.nupkg.sha512"
+    },
+    "NSwag.CodeGeneration/13.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eS7sQq380H69C/l0GfVOOZRAE204W37qSsGiJf1xIJ7pM8ZglU/8CuwsLzM4ZpgMvNhcUNX69VuY3ZNI7jV3PA==",
+      "path": "nswag.codegeneration/13.18.0",
+      "hashPath": "nswag.codegeneration.13.18.0.nupkg.sha512"
+    },
+    "NSwag.CodeGeneration.CSharp/13.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulM2x5mk7XjOGyn81lNR0C6l2vUPyF8qBHJfDR6B3i53wAlCQCABmyUtdHNRPCL1ueK4sW/nW4jDaeX3MMghTw==",
+      "path": "nswag.codegeneration.csharp/13.18.0",
+      "hashPath": "nswag.codegeneration.csharp.13.18.0.nupkg.sha512"
     },
     "NSwag.Core/13.18.0": {
       "type": "package",
@@ -1595,6 +1713,13 @@
       "sha512": "sha512-QnP3fjS3Eszafj09ce70S8Y9JkyWc4OqpM2eD68oc7UctUD1eqnZ8Y6AJqb02comv3592KWVtD1EzeBhiVDTtw==",
       "path": "nswag.generation.aspnetcore/13.18.0",
       "hashPath": "nswag.generation.aspnetcore.13.18.0.nupkg.sha512"
+    },
+    "Parlot/0.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Ts7GN++fLX5OOJfmnhzkKWBAovfykfnoZKT844Lnu3a/aNIvQFqdlZ8/b/SY9vE0+ho02/XnzbzWoXddceeDA==",
+      "path": "parlot/0.0.23",
+      "hashPath": "parlot.0.0.23.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",
@@ -2057,6 +2182,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "TimeZoneConverter/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziTcQ5rVxRdtWJEnEqhKBukZGuUQregbf5G7QRrFKj6CwBLss5tSz0dlSHy9gzi5M5ES0PNQ0K2ACP/0XVT5Ow==",
+      "path": "timezoneconverter/3.5.0",
+      "hashPath": "timezoneconverter.3.5.0.nupkg.sha512"
     },
     "YamlDotNet/11.2.1": {
       "type": "package",
